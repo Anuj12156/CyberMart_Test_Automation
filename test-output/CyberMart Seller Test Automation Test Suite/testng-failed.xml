@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CyberMart Seller Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="CyberMart Seller Test Cases(failed)">
+    <classes>
+      <class name="com.cybermart.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyCouponsLinkSeller"/>
+          <include name="verifyInventoryPage"/>
+          <include name="verifyCreateProduct"/>
+          <include name="verifySellerStore"/>
+          <include name="verifyProductsLink"/>
+          <include name="setUp"/>
+          <include name="verifyAccountSettings"/>
+          <include name="verifyBuyerQuestions"/>
+          <include name="verifyCampaignPage"/>
+          <include name="verifyPromotionsLink"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyOrdersLink"/>
+          <include name="tearDown"/>
+          <include name="verifyManageOrders"/>
+          <include name="verifySubSeller"/>
+        </methods>
+      </class> <!-- com.cybermart.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- CyberMart Seller Test Cases(failed) -->
+</suite> <!-- Failed suite [CyberMart Seller Test Automation Test Suite] -->
