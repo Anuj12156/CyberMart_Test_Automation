@@ -5,7 +5,9 @@
 		<classes>
 			<class name="com.cybermart.qa.testcases.LoginPageTest"></class>
 			<class name="com.cybermart.qa.testcases.HomePageTest"></class>
-
+			<class name="com.cybermart.qa.testcases.CreateProductTest"></class>
+			<class name="com.cybermart.qa.testcases.ProductCreationTest"></class>
+			<class name="com.cybermart.qa.testcases.InventoryPageTest"></class>
 		</classes>
 	</test>
 </suite>

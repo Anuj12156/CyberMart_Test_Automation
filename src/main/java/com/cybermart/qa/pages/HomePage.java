@@ -251,4 +251,10 @@ public class HomePage extends TestBase {
 		productsLinkSeller.click();
 		createProductLink.click();
 	}
+	
+	public void navigateInventoryPage() {
+		
+		productsLinkSeller.click();
+		inventoryLinkSeller.click();
+	}
 }

@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.cybermart.qa.base.TestBase;
+import com.cybermart.qa.utility.TestUtil;
 
 public class CreateProductsPage  extends TestBase {
 	
@@ -73,6 +74,9 @@ public class CreateProductsPage  extends TestBase {
 	@FindBy(xpath="//p[text()='Joggers']")
 	WebElement joggersMen;
 	
+	@FindBy(xpath="//p[text()='Casual Trousers']")
+	WebElement casualTrousersMen;
+	
 	
 	//Child Sub Categories under top wear in men --------------------------------------
 	//---------------------------------------------------------------------------------
@@ -82,6 +86,12 @@ public class CreateProductsPage  extends TestBase {
 	
 	@FindBy(xpath="//p[text()='Casual Shirts']")
 	WebElement casualShirtTopWearMen;
+	
+	
+	// Next Button to open Product Creation Page -------------------------------
+	//--------------------------------------------------------------------------
+	@FindBy(xpath="//button[text()='Next']")
+	WebElement nextButton;
 	
 	public CreateProductsPage() {
 		PageFactory.initElements(driver, this);
@@ -118,6 +128,7 @@ public class CreateProductsPage  extends TestBase {
 		
 	}
 	
+	
 	public void validateChildSubCategoriesTopWearMen() {
 
 			//Click on Main Category
@@ -135,7 +146,7 @@ public class CreateProductsPage  extends TestBase {
 	}
 	
 	// Navigation to product page
-	public void ProductCreationPage() {
+	public void productCreationPage() {
 	
 	// Navigate to Men-Topwear-Tshirt----------
 		
@@ -147,5 +158,18 @@ public class CreateProductsPage  extends TestBase {
 		tshirtsTopWearMen.click();
 		
 		
+	}
+	
+	public void productCreationPageBottomWear() throws Exception{
+
+		// Navigate to Men-bottomwear-Trouser----------
+			
+			//Click on Main Category
+			menCategory.click();
+			bottomwearMen.click();
+			casualTrousersMen.click();
+			nextButton.click();
+			TestUtil.waitStatement1();
+			
 	}
 }

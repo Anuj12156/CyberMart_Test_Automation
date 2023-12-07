@@ -31,7 +31,7 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath="//span[text()='New Member?']")
 	WebElement textNewMember;
 	
-	@FindBy(xpath="//span[text()='Sign in with Google']")
+	@FindBy(xpath="//div[text()='Sign in with Google']")
 	WebElement loginGoogle;
 	
 	public LoginPage () {

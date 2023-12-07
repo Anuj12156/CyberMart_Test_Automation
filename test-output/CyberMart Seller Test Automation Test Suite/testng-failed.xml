@@ -3,25 +3,13 @@
 <suite name="Failed suite [CyberMart Seller Test Automation Test Suite]" guice-stage="DEVELOPMENT">
   <test name="CyberMart Seller Test Cases(failed)">
     <classes>
-      <class name="com.cybermart.qa.testcases.HomePageTest">
+      <class name="com.cybermart.qa.testcases.LoginPageTest">
         <methods>
-          <include name="verifyCouponsLinkSeller"/>
-          <include name="verifyInventoryPage"/>
-          <include name="verifyCreateProduct"/>
-          <include name="verifySellerStore"/>
-          <include name="verifyProductsLink"/>
-          <include name="setUp"/>
-          <include name="verifyAccountSettings"/>
-          <include name="verifyBuyerQuestions"/>
-          <include name="verifyCampaignPage"/>
-          <include name="verifyPromotionsLink"/>
-          <include name="verifyHomePageTitleTest"/>
-          <include name="verifyOrdersLink"/>
           <include name="tearDown"/>
-          <include name="verifyManageOrders"/>
-          <include name="verifySubSeller"/>
+          <include name="validateGoogleSignIn"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.cybermart.qa.testcases.HomePageTest -->
+      </class> <!-- com.cybermart.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- CyberMart Seller Test Cases(failed) -->
 </suite> <!-- Failed suite [CyberMart Seller Test Automation Test Suite] -->

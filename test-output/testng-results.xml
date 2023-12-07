@@ -1,49 +1,523 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="35" passed="34" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Cybermart | Home]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-10-25T12:55:20Z" name="Default suite" finished-at="2023-10-25T12:55:46Z" duration-ms="25967">
+  <suite started-at="2023-12-07T10:08:27Z" name="CyberMart Seller Test Automation Test Suite" finished-at="2023-12-07T10:14:35Z" duration-ms="367964">
     <groups>
     </groups>
-    <test started-at="2023-10-25T12:55:20Z" name="Default test" finished-at="2023-10-25T12:55:46Z" duration-ms="25967">
-      <class name="com.cybermart.qa.testcases.CreateProductTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@1caa0244]" started-at="2023-10-25T18:25:20Z" name="setUp" finished-at="2023-10-25T18:25:28Z" duration-ms="7943" status="PASS">
+    <test started-at="2023-12-07T10:08:27Z" name="CyberMart Seller Test Cases" finished-at="2023-12-07T10:14:35Z" duration-ms="367964">
+      <class name="com.cybermart.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:39:07Z" name="setUp" finished-at="2023-12-07T15:39:09Z" duration-ms="2353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyCategoriesCreateProduct()[pri:1, instance:com.cybermart.qa.testcases.CreateProductTest@1caa0244]" started-at="2023-10-25T18:25:28Z" name="verifyCategoriesCreateProduct" finished-at="2023-10-25T18:25:29Z" duration-ms="613" status="PASS">
+        <test-method signature="validateTitle()[pri:1, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:39:09Z" name="validateTitle" finished-at="2023-12-07T15:39:10Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:39:10Z" name="tearDown" finished-at="2023-12-07T15:39:10Z" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:39:39Z" name="setUp" finished-at="2023-12-07T15:39:42Z" duration-ms="2575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterButton()[pri:2, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:39:42Z" name="validateRegisterButton" finished-at="2023-12-07T15:39:42Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:39:42Z" name="tearDown" finished-at="2023-12-07T15:39:42Z" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:40:15Z" name="setUp" finished-at="2023-12-07T15:40:18Z" duration-ms="2399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateFbLogin()[pri:3, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:40:18Z" name="validateFbLogin" finished-at="2023-12-07T15:40:18Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFbLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:40:18Z" name="tearDown" finished-at="2023-12-07T15:40:18Z" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:40:50Z" name="setUp" finished-at="2023-12-07T15:40:53Z" duration-ms="2375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginText()[pri:4, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:40:53Z" name="validateLoginText" finished-at="2023-12-07T15:40:53Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:40:53Z" name="tearDown" finished-at="2023-12-07T15:40:53Z" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:41:14Z" name="setUp" finished-at="2023-12-07T15:41:16Z" duration-ms="2277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomeImage()[pri:5, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:41:16Z" name="validateWelcomeImage" finished-at="2023-12-07T15:41:16Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomeImage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:41:16Z" name="tearDown" finished-at="2023-12-07T15:41:16Z" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:41:28Z" name="setUp" finished-at="2023-12-07T15:41:30Z" duration-ms="2262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateNewMemberText()[pri:6, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:41:30Z" name="validateNewMemberText" finished-at="2023-12-07T15:41:30Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewMemberText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:41:30Z" name="tearDown" finished-at="2023-12-07T15:41:30Z" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:41:42Z" name="setUp" finished-at="2023-12-07T15:41:44Z" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateGoogleSignIn()[pri:7, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:41:44Z" name="validateGoogleSignIn" finished-at="2023-12-07T15:41:54Z" duration-ms="10219" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign in with Google']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9I7RF0E', ip: '192.168.1.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\conve\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1dc7bb61534ef42940fdd1d728dd1fe0
+*** Element info: {Using=xpath, value=//span[text()='Sign in with Google']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign in with Google']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-9I7RF0E', ip: '192.168.1.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\conve\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1dc7bb61534ef42940fdd1d728dd1fe0
+*** Element info: {Using=xpath, value=//span[text()='Sign in with Google']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at com.cybermart.qa.pages.LoginPage.validateGoogleLogin(LoginPage.java:65)
+	at com.cybermart.qa.testcases.LoginPageTest.validateGoogleSignIn(LoginPageTest.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:41:54Z" name="tearDown" finished-at="2023-12-07T15:41:54Z" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:42:06Z" name="setUp" finished-at="2023-12-07T15:42:08Z" duration-ms="2318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:8, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:42:08Z" name="login" finished-at="2023-12-07T15:42:13Z" duration-ms="4613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.LoginPageTest@4df50bcc]" started-at="2023-12-07T15:42:13Z" name="tearDown" finished-at="2023-12-07T15:42:13Z" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cybermart.qa.testcases.LoginPageTest -->
+      <class name="com.cybermart.qa.testcases.ProductCreationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.ProductCreationTest@54c562f7]" started-at="2023-12-07T15:38:27Z" name="setUp" finished-at="2023-12-07T15:38:38Z" duration-ms="11283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createProduct()[pri:0, instance:com.cybermart.qa.testcases.ProductCreationTest@54c562f7]" started-at="2023-12-07T15:38:38Z" name="createProduct" finished-at="2023-12-07T15:39:07Z" duration-ms="28162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.ProductCreationTest@54c562f7]" started-at="2023-12-07T15:39:07Z" name="tearDown" finished-at="2023-12-07T15:39:07Z" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cybermart.qa.testcases.ProductCreationTest -->
+      <class name="com.cybermart.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:39:20Z" name="setUp" finished-at="2023-12-07T15:39:29Z" duration-ms="8977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:39:29Z" name="verifyHomePageTitleTest" finished-at="2023-12-07T15:39:31Z" duration-ms="2048" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cybermart | Home]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:39:31Z" name="tearDown" finished-at="2023-12-07T15:39:31Z" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:39:55Z" name="setUp" finished-at="2023-12-07T15:40:04Z" duration-ms="8906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDashboardSeller()[pri:2, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:40:04Z" name="verifyDashboardSeller" finished-at="2023-12-07T15:40:06Z" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardSeller -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:40:06Z" name="tearDown" finished-at="2023-12-07T15:40:07Z" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:40:32Z" name="setUp" finished-at="2023-12-07T15:40:41Z" duration-ms="9035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySellerLogo()[pri:3, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:40:41Z" name="verifySellerLogo" finished-at="2023-12-07T15:40:43Z" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySellerLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:40:43Z" name="tearDown" finished-at="2023-12-07T15:40:44Z" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:41:02Z" name="setUp" finished-at="2023-12-07T15:41:11Z" duration-ms="8891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOrdersDataDashboard()[pri:4, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:41:11Z" name="verifyOrdersDataDashboard" finished-at="2023-12-07T15:41:13Z" duration-ms="2078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersDataDashboard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:41:13Z" name="tearDown" finished-at="2023-12-07T15:41:14Z" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:41:16Z" name="setUp" finished-at="2023-12-07T15:41:25Z" duration-ms="9003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOtherSellerLink()[pri:5, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:41:25Z" name="verifyOtherSellerLink" finished-at="2023-12-07T15:41:27Z" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOtherSellerLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:41:27Z" name="tearDown" finished-at="2023-12-07T15:41:28Z" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:41:30Z" name="setUp" finished-at="2023-12-07T15:41:39Z" duration-ms="8924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProfilePicture()[pri:6, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:41:39Z" name="verifyProfilePicture" finished-at="2023-12-07T15:41:41Z" duration-ms="2088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProfilePicture -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:41:41Z" name="tearDown" finished-at="2023-12-07T15:41:42Z" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:41:54Z" name="setUp" finished-at="2023-12-07T15:42:03Z" duration-ms="9057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutLink()[pri:7, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:03Z" name="verifyLogoutLink" finished-at="2023-12-07T15:42:06Z" duration-ms="2175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:06Z" name="tearDown" finished-at="2023-12-07T15:42:06Z" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:13Z" name="setUp" finished-at="2023-12-07T15:42:22Z" duration-ms="8887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductsLink()[pri:8, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:22Z" name="verifyProductsLink" finished-at="2023-12-07T15:42:26Z" duration-ms="3596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:26Z" name="tearDown" finished-at="2023-12-07T15:42:26Z" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:26Z" name="setUp" finished-at="2023-12-07T15:42:35Z" duration-ms="8908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOrdersLink()[pri:9, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:35Z" name="verifyOrdersLink" finished-at="2023-12-07T15:42:37Z" duration-ms="2193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:37Z" name="tearDown" finished-at="2023-12-07T15:42:38Z" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:38Z" name="setUp" finished-at="2023-12-07T15:42:47Z" duration-ms="8913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPromotionsLink()[pri:10, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:47Z" name="verifyPromotionsLink" finished-at="2023-12-07T15:42:49Z" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPromotionsLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:49Z" name="tearDown" finished-at="2023-12-07T15:42:49Z" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:49Z" name="setUp" finished-at="2023-12-07T15:42:58Z" duration-ms="9051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAccountSettings()[pri:11, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:42:58Z" name="verifyAccountSettings" finished-at="2023-12-07T15:43:00Z" duration-ms="2103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountSettings -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:00Z" name="tearDown" finished-at="2023-12-07T15:43:01Z" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:01Z" name="setUp" finished-at="2023-12-07T15:43:10Z" duration-ms="9094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySellerStore()[pri:12, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:10Z" name="verifySellerStore" finished-at="2023-12-07T15:43:12Z" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySellerStore -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:12Z" name="tearDown" finished-at="2023-12-07T15:43:12Z" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:12Z" name="setUp" finished-at="2023-12-07T15:43:21Z" duration-ms="9030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySubSeller()[pri:13, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:21Z" name="verifySubSeller" finished-at="2023-12-07T15:43:23Z" duration-ms="2100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubSeller -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:23Z" name="tearDown" finished-at="2023-12-07T15:43:24Z" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:24Z" name="setUp" finished-at="2023-12-07T15:43:33Z" duration-ms="9121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCreateProduct()[pri:14, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:33Z" name="verifyCreateProduct" finished-at="2023-12-07T15:43:35Z" duration-ms="2228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:35Z" name="tearDown" finished-at="2023-12-07T15:43:36Z" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:36Z" name="setUp" finished-at="2023-12-07T15:43:44Z" duration-ms="8907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInventoryPage()[pri:15, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:44Z" name="verifyInventoryPage" finished-at="2023-12-07T15:43:47Z" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventoryPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:47Z" name="tearDown" finished-at="2023-12-07T15:43:47Z" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:47Z" name="setUp" finished-at="2023-12-07T15:43:56Z" duration-ms="8811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBuyerQuestions()[pri:16, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:56Z" name="verifyBuyerQuestions" finished-at="2023-12-07T15:43:58Z" duration-ms="2190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyerQuestions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:58Z" name="tearDown" finished-at="2023-12-07T15:43:58Z" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:43:58Z" name="setUp" finished-at="2023-12-07T15:44:07Z" duration-ms="8970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyManageOrders()[pri:17, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:44:07Z" name="verifyManageOrders" finished-at="2023-12-07T15:44:09Z" duration-ms="2154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:44:09Z" name="tearDown" finished-at="2023-12-07T15:44:10Z" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:44:10Z" name="setUp" finished-at="2023-12-07T15:44:21Z" duration-ms="11006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCouponsLinkSeller()[pri:18, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:44:21Z" name="verifyCouponsLinkSeller" finished-at="2023-12-07T15:44:23Z" duration-ms="2188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCouponsLinkSeller -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:44:23Z" name="tearDown" finished-at="2023-12-07T15:44:24Z" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:44:24Z" name="setUp" finished-at="2023-12-07T15:44:32Z" duration-ms="8790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCampaignPage()[pri:19, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:44:32Z" name="verifyCampaignPage" finished-at="2023-12-07T15:44:35Z" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCampaignPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.HomePageTest@6b26e945]" started-at="2023-12-07T15:44:35Z" name="tearDown" finished-at="2023-12-07T15:44:35Z" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cybermart.qa.testcases.HomePageTest -->
+      <class name="com.cybermart.qa.testcases.InventoryPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:39:10Z" name="setUp" finished-at="2023-12-07T15:39:17Z" duration-ms="7047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInventoryTitle()[pri:1, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:39:17Z" name="verifyInventoryTitle" finished-at="2023-12-07T15:39:19Z" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventoryTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:39:19Z" name="tearDown" finished-at="2023-12-07T15:39:20Z" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:39:42Z" name="setUp" finished-at="2023-12-07T15:39:49Z" duration-ms="7141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="updateQuantity()[pri:2, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:39:49Z" name="updateQuantity" finished-at="2023-12-07T15:39:55Z" duration-ms="5826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateQuantity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:39:55Z" name="tearDown" finished-at="2023-12-07T15:39:55Z" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:40:18Z" name="setUp" finished-at="2023-12-07T15:40:25Z" duration-ms="7251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="updatePrice()[pri:3, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:40:25Z" name="updatePrice" finished-at="2023-12-07T15:40:31Z" duration-ms="6065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:40:32Z" name="tearDown" finished-at="2023-12-07T15:40:32Z" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:40:53Z" name="setUp" finished-at="2023-12-07T15:41:00Z" duration-ms="7137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEditProductButton()[pri:4, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:41:00Z" name="verifyEditProductButton" finished-at="2023-12-07T15:41:02Z" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditProductButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.InventoryPageTest@318ba8c8]" started-at="2023-12-07T15:41:02Z" name="tearDown" finished-at="2023-12-07T15:41:02Z" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cybermart.qa.testcases.InventoryPageTest -->
+      <class name="com.cybermart.qa.testcases.CreateProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@63a65a25]" started-at="2023-12-07T15:39:31Z" name="setUp" finished-at="2023-12-07T15:39:38Z" duration-ms="6995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCategoriesCreateProduct()[pri:1, instance:com.cybermart.qa.testcases.CreateProductTest@63a65a25]" started-at="2023-12-07T15:39:38Z" name="verifyCategoriesCreateProduct" finished-at="2023-12-07T15:39:39Z" duration-ms="654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCategoriesCreateProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@1caa0244]" started-at="2023-10-25T18:25:29Z" name="tearDown" finished-at="2023-10-25T18:25:29Z" duration-ms="501" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@63a65a25]" started-at="2023-12-07T15:39:39Z" name="tearDown" finished-at="2023-12-07T15:39:39Z" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@1caa0244]" started-at="2023-10-25T18:25:29Z" name="setUp" finished-at="2023-10-25T18:25:37Z" duration-ms="7535" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@63a65a25]" started-at="2023-12-07T15:40:07Z" name="setUp" finished-at="2023-12-07T15:40:14Z" duration-ms="7376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySubCategoriesMen()[pri:2, instance:com.cybermart.qa.testcases.CreateProductTest@1caa0244]" started-at="2023-10-25T18:25:37Z" name="verifySubCategoriesMen" finished-at="2023-10-25T18:25:38Z" duration-ms="664" status="PASS">
+        <test-method signature="verifySubCategoriesMen()[pri:2, instance:com.cybermart.qa.testcases.CreateProductTest@63a65a25]" started-at="2023-12-07T15:40:14Z" name="verifySubCategoriesMen" finished-at="2023-12-07T15:40:15Z" duration-ms="753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubCategoriesMen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@1caa0244]" started-at="2023-10-25T18:25:38Z" name="tearDown" finished-at="2023-10-25T18:25:38Z" duration-ms="440" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@63a65a25]" started-at="2023-12-07T15:40:15Z" name="tearDown" finished-at="2023-12-07T15:40:15Z" duration-ms="439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@1caa0244]" started-at="2023-10-25T18:25:38Z" name="setUp" finished-at="2023-10-25T18:25:45Z" duration-ms="7311" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@63a65a25]" started-at="2023-12-07T15:40:44Z" name="setUp" finished-at="2023-12-07T15:40:50Z" duration-ms="6036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyChildSubcategoriesTopWearMen()[pri:3, instance:com.cybermart.qa.testcases.CreateProductTest@1caa0244]" started-at="2023-10-25T18:25:45Z" name="verifyChildSubcategoriesTopWearMen" finished-at="2023-10-25T18:25:46Z" duration-ms="526" status="PASS">
+        <test-method signature="verifyChildSubcategoriesTopWearMen()[pri:3, instance:com.cybermart.qa.testcases.CreateProductTest@63a65a25]" started-at="2023-12-07T15:40:50Z" name="verifyChildSubcategoriesTopWearMen" finished-at="2023-12-07T15:40:50Z" duration-ms="571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyChildSubcategoriesTopWearMen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@1caa0244]" started-at="2023-10-25T18:25:46Z" name="tearDown" finished-at="2023-10-25T18:25:46Z" duration-ms="399" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cybermart.qa.testcases.CreateProductTest@63a65a25]" started-at="2023-12-07T15:40:50Z" name="tearDown" finished-at="2023-12-07T15:40:50Z" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.cybermart.qa.testcases.CreateProductTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- CyberMart Seller Test Cases -->
+  </suite> <!-- CyberMart Seller Test Automation Test Suite -->
 </testng-results>

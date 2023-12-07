@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>CyberMart Seller Test Cases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>34/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 25 14:56:21 IST 2023</td>
+<td>Started on:</td><td>Thu Dec 07 15:38:27 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>258 seconds (258440 ms)</td>
+<tr><td>Total time:</td><td>367 seconds (367964 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,107 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cybermart.qa.testcases.LoginPageTest.validateGoogleSignIn()'><b>validateGoogleSignIn</b><br>Test class: com.cybermart.qa.testcases.LoginPageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Sign in with Google&apos;]&quot;}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-9I7RF0E&apos;, ip: &apos;192.168.1.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\conve\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1dc7bb61534ef42940fdd1d728dd1fe0
+*** Element info: {Using=xpath, value=//span[text()=&apos;Sign in with Google&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at com.cybermart.qa.pages.LoginPage.validateGoogleLogin(LoginPage.java:65)
+	at com.cybermart.qa.testcases.LoginPageTest.validateGoogleSignIn(LoginPageTest.java:70)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace438094511", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace438094511'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Sign in with Google&apos;]&quot;}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-9I7RF0E&apos;, ip: &apos;192.168.1.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\conve\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1dc7bb61534ef42940fdd1d728dd1fe0
+*** Element info: {Using=xpath, value=//span[text()=&apos;Sign in with Google&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at com.cybermart.qa.pages.LoginPage.validateGoogleLogin(LoginPage.java:65)
+	at com.cybermart.qa.testcases.LoginPageTest.validateGoogleSignIn(LoginPageTest.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>com.cybermart.qa.testcases.LoginPageTest@4df50bcc</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,147 +176,182 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.cybermart.qa.testcases.ProductCreationTest.createProduct()'><b>createProduct</b><br>Test class: com.cybermart.qa.testcases.ProductCreationTest</td>
+<td></td>
+<td>28</td>
+<td>com.cybermart.qa.testcases.ProductCreationTest@54c562f7</td></tr>
+<tr>
 <td title='com.cybermart.qa.testcases.LoginPageTest.login()'><b>login</b><br>Test class: com.cybermart.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>4</td>
-<td>com.cybermart.qa.testcases.LoginPageTest@15b204a1</td></tr>
+<td>com.cybermart.qa.testcases.LoginPageTest@4df50bcc</td></tr>
+<tr>
+<td title='com.cybermart.qa.testcases.InventoryPageTest.updatePrice()'><b>updatePrice</b><br>Test class: com.cybermart.qa.testcases.InventoryPageTest</td>
+<td></td>
+<td>6</td>
+<td>com.cybermart.qa.testcases.InventoryPageTest@318ba8c8</td></tr>
+<tr>
+<td title='com.cybermart.qa.testcases.InventoryPageTest.updateQuantity()'><b>updateQuantity</b><br>Test class: com.cybermart.qa.testcases.InventoryPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.cybermart.qa.testcases.InventoryPageTest@318ba8c8</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.LoginPageTest.validateFbLogin()'><b>validateFbLogin</b><br>Test class: com.cybermart.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.cybermart.qa.testcases.LoginPageTest@15b204a1</td></tr>
-<tr>
-<td title='com.cybermart.qa.testcases.LoginPageTest.validateGoogleSignIn()'><b>validateGoogleSignIn</b><br>Test class: com.cybermart.qa.testcases.LoginPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.cybermart.qa.testcases.LoginPageTest@15b204a1</td></tr>
+<td>com.cybermart.qa.testcases.LoginPageTest@4df50bcc</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.LoginPageTest.validateLoginText()'><b>validateLoginText</b><br>Test class: com.cybermart.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.cybermart.qa.testcases.LoginPageTest@15b204a1</td></tr>
+<td>com.cybermart.qa.testcases.LoginPageTest@4df50bcc</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.LoginPageTest.validateNewMemberText()'><b>validateNewMemberText</b><br>Test class: com.cybermart.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.cybermart.qa.testcases.LoginPageTest@15b204a1</td></tr>
+<td>com.cybermart.qa.testcases.LoginPageTest@4df50bcc</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.LoginPageTest.validateRegisterButton()'><b>validateRegisterButton</b><br>Test class: com.cybermart.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.cybermart.qa.testcases.LoginPageTest@15b204a1</td></tr>
+<td>com.cybermart.qa.testcases.LoginPageTest@4df50bcc</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.LoginPageTest.validateTitle()'><b>validateTitle</b><br>Test class: com.cybermart.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.cybermart.qa.testcases.LoginPageTest@15b204a1</td></tr>
+<td>com.cybermart.qa.testcases.LoginPageTest@4df50bcc</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.LoginPageTest.validateWelcomeImage()'><b>validateWelcomeImage</b><br>Test class: com.cybermart.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.cybermart.qa.testcases.LoginPageTest@15b204a1</td></tr>
+<td>com.cybermart.qa.testcases.LoginPageTest@4df50bcc</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyAccountSettings()'><b>verifyAccountSettings</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyBuyerQuestions()'><b>verifyBuyerQuestions</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyCampaignPage()'><b>verifyCampaignPage</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
+<tr>
+<td title='com.cybermart.qa.testcases.CreateProductTest.verifyCategoriesCreateProduct()'><b>verifyCategoriesCreateProduct</b><br>Test class: com.cybermart.qa.testcases.CreateProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.cybermart.qa.testcases.CreateProductTest@63a65a25</td></tr>
+<tr>
+<td title='com.cybermart.qa.testcases.CreateProductTest.verifyChildSubcategoriesTopWearMen()'><b>verifyChildSubcategoriesTopWearMen</b><br>Test class: com.cybermart.qa.testcases.CreateProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.cybermart.qa.testcases.CreateProductTest@63a65a25</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyCouponsLinkSeller()'><b>verifyCouponsLinkSeller</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyCreateProduct()'><b>verifyCreateProduct</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyDashboardSeller()'><b>verifyDashboardSeller</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
+<tr>
+<td title='com.cybermart.qa.testcases.InventoryPageTest.verifyEditProductButton()'><b>verifyEditProductButton</b><br>Test class: com.cybermart.qa.testcases.InventoryPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.cybermart.qa.testcases.InventoryPageTest@318ba8c8</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyHomePageTitleTest()'><b>verifyHomePageTitleTest</b><br>Test class: com.cybermart.qa.testcases.HomePageTest<br/>
-<a href="#Output-198098993" onClick='toggleBox("Output-198098993", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-818859466" onClick='toggleBox("Output-818859466", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-198098993" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-198098993">
+<a href="#Output-818859466" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-818859466">
 Cybermart | Home<br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyInventoryPage()'><b>verifyInventoryPage</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
+<tr>
+<td title='com.cybermart.qa.testcases.InventoryPageTest.verifyInventoryTitle()'><b>verifyInventoryTitle</b><br>Test class: com.cybermart.qa.testcases.InventoryPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.cybermart.qa.testcases.InventoryPageTest@318ba8c8</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyLogoutLink()'><b>verifyLogoutLink</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyManageOrders()'><b>verifyManageOrders</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyOrdersDataDashboard()'><b>verifyOrdersDataDashboard</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyOrdersLink()'><b>verifyOrdersLink</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyOtherSellerLink()'><b>verifyOtherSellerLink</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyProductsLink()'><b>verifyProductsLink</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>3</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyProfilePicture()'><b>verifyProfilePicture</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifyPromotionsLink()'><b>verifyPromotionsLink</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifySellerLogo()'><b>verifySellerLogo</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifySellerStore()'><b>verifySellerStore</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
+<tr>
+<td title='com.cybermart.qa.testcases.CreateProductTest.verifySubCategoriesMen()'><b>verifySubCategoriesMen</b><br>Test class: com.cybermart.qa.testcases.CreateProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.cybermart.qa.testcases.CreateProductTest@63a65a25</td></tr>
 <tr>
 <td title='com.cybermart.qa.testcases.HomePageTest.verifySubSeller()'><b>verifySubSeller</b><br>Test class: com.cybermart.qa.testcases.HomePageTest</td>
 <td></td>
 <td>2</td>
-<td>com.cybermart.qa.testcases.HomePageTest@77167fb7</td></tr>
+<td>com.cybermart.qa.testcases.HomePageTest@6b26e945</td></tr>
 </table><p>
 </body>
 </html>

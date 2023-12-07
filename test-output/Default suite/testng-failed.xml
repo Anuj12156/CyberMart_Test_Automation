@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.cybermart.qa.testcases.CreateProductTest">
+      <class name="com.cybermart.qa.testcases.InventoryPageTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verifySubCategoriesMen"/>
+          <include name="tearDown"/>
+          <include name="verifyInventoryTitle"/>
         </methods>
-      </class> <!-- com.cybermart.qa.testcases.CreateProductTest -->
+      </class> <!-- com.cybermart.qa.testcases.InventoryPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
